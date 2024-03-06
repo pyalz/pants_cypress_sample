@@ -1,0 +1,18 @@
+[GLOBAL]
+pants_version = "2.20.0rc0"
+
+
+backend_packages = [
+  "pants.backend.experimental.go",
+  "pants.backend.python",
+  "pants.backend.python.lint.black",
+  "pants.backend.experimental.javascript",
+  "pants.backend.experimental.typescript",
+]
+
+[source]
+root_patterns = ["/"]
+
+#pants_ignore.add = ["!venv1/*.*"]
+[python]
+interpreter_constraints = ['>=3.7,<3.12']

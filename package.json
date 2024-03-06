@@ -1,0 +1,26 @@
+{
+  "name": "cypress-ts-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && npm run lint && cypress run",
+    "lint": "tslint 'cypress/**/*.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lanruoj/cypress-ts-config.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lanruoj/cypress-ts-config/issues"
+  },
+  "homepage": "https://github.com/Lanruoj/cypress-ts-config#readme",
+  "devDependencies": {
+    "cypress": "^12.17.4",
+    "tslint": "^6.1.3",
+    "typescript": "^5.0.4"
+  }
+}

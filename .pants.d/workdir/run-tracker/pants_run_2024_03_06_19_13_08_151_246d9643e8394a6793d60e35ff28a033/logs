@@ -1,0 +1,7 @@
+19:13:08.15 [31m[ERROR][0m 1 Exception encountered:
+
+Engine traceback:
+  in `tailor` goal
+
+IntrinsicError: Failed to read link "/home/alister/B/Code/cypress/cypress-ts-config/venv1/bin/python": Absolute symlink: "/usr/bin/python"
+

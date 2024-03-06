@@ -1,0 +1,14 @@
+18:34:47.30 [31m[ERROR][0m Invalid option 'pants_ignore' under [source] in /home/alister/B/Code/cypress/cypress-ts-config/pants.toml
+18:34:47.30 [31m[ERROR][0m Invalid config entries detected. See log for details on which entries to update or remove.
+
+(Specify --no-verify-config to disable this check.)
+
+
+Use --print-stacktrace for more error details and/or -ldebug for more logs. 
+See https://www.pantsbuild.org/2.20/docs/using-pants/troubleshooting-common-issues for common issues.
+Consider reaching out for help: https://www.pantsbuild.org/community/getting-help
+
+18:34:47.30 [INFO] request completed: `--python-repos-find-links=-[] tailor ::`
+18:35:51.11 [INFO] handling request: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+18:35:51.17 [INFO] Initialization options changed: reinitializing scheduler...
+18:35:55.24 [INFO] Scheduler initialized.

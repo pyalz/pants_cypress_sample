@@ -1,0 +1,11 @@
+19:18:08.51 [INFO] notify invalidation: cleared 1 and dirtied 45 nodes for: {".tmp3aarp3.hardlink_canary", ""}
+19:18:08.51 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", ".tmp3aarp3.hardlink_canary"}
+19:18:08.51 [INFO] notify invalidation: cleared 1 and dirtied 45 nodes for: {"BUILD", ""}
+19:18:08.51 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"BUILD"}
+19:18:08.51 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"BUILD", ""}
+19:18:08.51 [INFO] notify invalidation: cleared 1 and dirtied 30 nodes for: {"cypress/e2e", "cypress/e2e/BUILD"}
+19:18:08.51 [INFO] notify invalidation: cleared 1 and dirtied 30 nodes for: {"cypress/support/BUILD", "cypress/support"}
+19:18:08.51 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"cypress/e2e/BUILD"}
+19:18:08.51 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"cypress/e2e", "cypress/e2e/BUILD"}
+19:18:08.51 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"cypress/support/BUILD"}
+19:18:08.51 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"cypress/support/BUILD", "cypress/support"}

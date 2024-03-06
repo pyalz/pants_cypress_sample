@@ -1,0 +1,525 @@
+18:31:18.87 [INFO] pantsd 2.20.0rc0 running with PID: 58201
+18:31:18.96 [INFO] handling request: `--python-repos-find-links=-[] tailor ::`
+18:31:23.13 [INFO] request completed: `--python-repos-find-links=-[] tailor ::`
+18:32:26.12 [INFO] notify invalidation: cleared 1 and dirtied 10 nodes for: {"", "pants.toml~"}
+18:32:26.12 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+18:32:26.12 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+18:32:26.12 [INFO] notify invalidation: cleared 1 and dirtied 10 nodes for: {"", "pants.toml~"}
+18:32:26.12 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+18:32:26.12 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+18:32:26.13 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+18:32:26.13 [ERROR] saw filesystem changes covered by invalidation globs: SnapshotDiff(our_unique_files=(), our_unique_dirs=(), their_unique_files=(), their_unique_dirs=(), changed_files=('pants.toml',)). terminating the daemon.
+18:32:26.13 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+18:32:26.13 [INFO] notify invalidation: cleared 1 and dirtied 10 nodes for: {"", "pants.toml"}
+18:32:26.13 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml"}
+18:32:26.13 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml~"}
+18:32:26.14 [ERROR] service failure for <pants.pantsd.service.scheduler_service.SchedulerService object at 0x7fc6bc711e80>.
+18:32:26.15 [INFO] Waiting for ongoing runs to complete before exiting...
+18:32:26.15 [INFO] Server exiting with Ok(())
+18:32:26.15 [INFO] Waiting for Sessions to complete before exiting...
+18:32:26.15 [INFO] Waiting for shutdown of: ["scheduler_service_session", "store_gc_service_session", "pants_run_2024_03_06_18_31_23_117_4f5de1ccbce54853a079be96b777f49e"]
+18:32:26.15 [INFO] Shutdown completed: "scheduler_service_session"
+18:32:26.15 [INFO] Shutdown completed: "store_gc_service_session"
+18:32:26.15 [INFO] Shutdown completed: "pants_run_2024_03_06_18_31_23_117_4f5de1ccbce54853a079be96b777f49e"
+18:32:26.15 [INFO] Exiting pantsd
+18:32:26.15 [WARN] File watcher exiting with: The watcher was shut down.
+18:32:26.16 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml~"}
+18:32:26.16 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+18:32:26.16 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+18:32:26.16 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~", ""}
+18:32:26.16 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+18:32:26.16 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+18:32:26.16 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+18:32:26.16 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+18:32:26.16 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml"}
+18:32:26.16 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml", ""}
+18:32:26.16 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml~"}
+18:32:39.81 [INFO] pantsd 2.20.0rc0 running with PID: 58309
+18:32:39.83 [INFO] handling request: `--python-repos-find-links=-[] tailor ::`
+18:32:43.93 [INFO] request completed: `--python-repos-find-links=-[] tailor ::`
+18:33:48.85 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"", "pants.toml~"}
+18:33:48.85 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+18:33:48.85 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml~"}
+18:33:48.85 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+18:33:48.85 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+18:33:48.86 [ERROR] saw filesystem changes covered by invalidation globs: SnapshotDiff(our_unique_files=(), our_unique_dirs=(), their_unique_files=(), their_unique_dirs=(), changed_files=('pants.toml',)). terminating the daemon.
+18:33:48.86 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+18:33:48.86 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+18:33:48.86 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml", ""}
+18:33:48.86 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml"}
+18:33:48.86 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~", ""}
+18:33:48.95 [ERROR] service failure for <pants.pantsd.service.scheduler_service.SchedulerService object at 0x7f48c35ce160>.
+18:33:48.95 [INFO] Waiting for ongoing runs to complete before exiting...
+18:33:48.95 [INFO] Server exiting with Ok(())
+18:33:48.95 [INFO] Waiting for Sessions to complete before exiting...
+18:33:48.95 [INFO] Waiting for shutdown of: ["scheduler_service_session", "store_gc_service_session"]
+18:33:48.95 [INFO] Shutdown completed: "scheduler_service_session"
+18:33:48.95 [INFO] Shutdown completed: "store_gc_service_session"
+18:33:48.95 [INFO] Exiting pantsd
+18:33:48.95 [WARN] File watcher exiting with: The watcher was shut down.
+18:33:48.99 [WARN] File watcher exiting with: The watcher was shut down.
+18:34:02.35 [INFO] pantsd 2.20.0rc0 running with PID: 58401
+18:34:02.44 [INFO] handling request: `--python-repos-find-links=-[] tailor ::`
+18:34:06.56 [INFO] request completed: `--python-repos-find-links=-[] tailor ::`
+18:34:31.60 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"", "pants.toml~"}
+18:34:31.60 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+18:34:31.60 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+18:34:31.60 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"", "pants.toml~"}
+18:34:31.60 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+18:34:31.60 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+18:34:31.60 [ERROR] saw filesystem changes covered by invalidation globs: SnapshotDiff(our_unique_files=(), our_unique_dirs=(), their_unique_files=(), their_unique_dirs=(), changed_files=('pants.toml',)). terminating the daemon.
+18:34:31.60 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+18:34:31.60 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+18:34:31.60 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"", "pants.toml"}
+18:34:31.60 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml"}
+18:34:31.60 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~", ""}
+18:34:32.55 [ERROR] service failure for <pants.pantsd.service.scheduler_service.SchedulerService object at 0x7ff1507cf2b0>.
+18:34:32.55 [INFO] Waiting for ongoing runs to complete before exiting...
+18:34:32.55 [INFO] Server exiting with Ok(())
+18:34:32.55 [INFO] Waiting for Sessions to complete before exiting...
+18:34:32.55 [INFO] Waiting for shutdown of: ["scheduler_service_session", "store_gc_service_session"]
+18:34:32.55 [INFO] Shutdown completed: "scheduler_service_session"
+18:34:32.55 [INFO] Shutdown completed: "store_gc_service_session"
+18:34:32.56 [INFO] Exiting pantsd
+18:34:32.56 [WARN] File watcher exiting with: The watcher was shut down.
+18:34:32.59 [WARN] File watcher exiting with: The watcher was shut down.
+18:34:43.13 [INFO] pantsd 2.20.0rc0 running with PID: 58482
+18:34:43.21 [INFO] handling request: `--python-repos-find-links=-[] tailor ::`
+18:34:47.30 [INFO] request completed: `--python-repos-find-links=-[] tailor ::`
+18:35:51.11 [INFO] handling request: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+18:35:55.28 [INFO] request completed: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+18:37:15.25 [INFO] Extending leases
+18:37:15.25 [INFO] Done extending leases
+18:38:02.86 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"", "pants.toml~"}
+18:38:02.86 [INFO] notify invalidation: cleared 1 and dirtied 5 nodes for: {"", "pants.toml~"}
+18:38:02.86 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+18:38:02.86 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+18:38:02.86 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+18:38:02.86 [INFO] notify invalidation: cleared 1 and dirtied 5 nodes for: {"", "pants.toml~"}
+18:38:02.86 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~", ""}
+18:38:02.86 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+18:38:02.86 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+18:38:02.86 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+18:38:02.86 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+18:38:02.86 [ERROR] saw filesystem changes covered by invalidation globs: SnapshotDiff(our_unique_files=(), our_unique_dirs=(), their_unique_files=(), their_unique_dirs=(), changed_files=('pants.toml',)). terminating the daemon.
+18:38:02.86 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+18:38:02.86 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+18:38:02.86 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+18:38:02.86 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+18:38:02.86 [INFO] notify invalidation: cleared 1 and dirtied 5 nodes for: {"pants.toml", ""}
+18:38:02.86 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml"}
+18:38:02.86 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml"}
+18:38:02.86 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml", ""}
+18:38:02.86 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml~"}
+18:38:02.86 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~", ""}
+18:38:03.37 [ERROR] service failure for <pants.pantsd.service.scheduler_service.SchedulerService object at 0x7ecc2adc15e0>.
+18:38:03.37 [INFO] Waiting for ongoing runs to complete before exiting...
+18:38:03.37 [INFO] Server exiting with Ok(())
+18:38:03.37 [INFO] Waiting for Sessions to complete before exiting...
+18:38:03.37 [INFO] Waiting for shutdown of: ["scheduler_service_session", "store_gc_service_session", "pants_run_2024_03_06_18_35_55_282_8213d78e3b4d47b289488a26e4cbc550"]
+18:38:03.37 [INFO] Shutdown completed: "scheduler_service_session"
+18:38:03.37 [INFO] Shutdown completed: "store_gc_service_session"
+18:38:03.37 [INFO] Shutdown completed: "pants_run_2024_03_06_18_35_55_282_8213d78e3b4d47b289488a26e4cbc550"
+18:38:03.37 [INFO] Exiting pantsd
+18:38:03.38 [WARN] File watcher exiting with: The watcher was shut down.
+18:38:03.41 [WARN] File watcher exiting with: The watcher was shut down.
+18:38:25.51 [INFO] pantsd 2.20.0rc0 running with PID: 58736
+18:38:25.61 [INFO] handling request: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+18:38:29.76 [INFO] request completed: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+18:39:49.72 [INFO] Extending leases
+18:39:49.72 [INFO] Done extending leases
+18:40:32.27 [INFO] notify invalidation: cleared 1 and dirtied 10 nodes for: {"pants.toml~", ""}
+18:40:32.27 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+18:40:32.27 [INFO] notify invalidation: cleared 1 and dirtied 10 nodes for: {"pants.toml~", ""}
+18:40:32.27 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+18:40:32.27 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+18:40:32.28 [ERROR] saw filesystem changes covered by invalidation globs: SnapshotDiff(our_unique_files=(), our_unique_dirs=(), their_unique_files=(), their_unique_dirs=(), changed_files=('pants.toml',)). terminating the daemon.
+18:40:32.28 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+18:40:32.28 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+18:40:32.28 [INFO] notify invalidation: cleared 1 and dirtied 10 nodes for: {"", "pants.toml"}
+18:40:32.28 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml"}
+18:40:32.28 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml~"}
+18:40:32.85 [ERROR] service failure for <pants.pantsd.service.scheduler_service.SchedulerService object at 0x7faa729f4eb0>.
+18:40:32.85 [INFO] Waiting for ongoing runs to complete before exiting...
+18:40:32.85 [INFO] Server exiting with Ok(())
+18:40:32.85 [INFO] Waiting for Sessions to complete before exiting...
+18:40:32.85 [INFO] Waiting for shutdown of: ["scheduler_service_session", "store_gc_service_session", "pants_run_2024_03_06_18_38_29_757_f7391c20610345cc80d80fb65e415f58"]
+18:40:32.85 [INFO] Shutdown completed: "scheduler_service_session"
+18:40:32.85 [INFO] Shutdown completed: "store_gc_service_session"
+18:40:32.85 [INFO] Shutdown completed: "pants_run_2024_03_06_18_38_29_757_f7391c20610345cc80d80fb65e415f58"
+18:40:32.85 [INFO] Exiting pantsd
+18:40:32.85 [WARN] File watcher exiting with: The watcher was shut down.
+18:41:27.63 [INFO] pantsd 2.20.0rc0 running with PID: 58998
+18:41:27.70 [INFO] handling request: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+18:41:31.82 [INFO] request completed: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+18:42:51.78 [INFO] Extending leases
+18:42:51.79 [INFO] Done extending leases
+18:44:11.79 [INFO] Extending leases
+18:44:11.79 [INFO] Done extending leases
+18:45:31.79 [INFO] Extending leases
+18:45:31.80 [INFO] Done extending leases
+18:46:51.80 [INFO] Extending leases
+18:46:51.80 [INFO] Done extending leases
+18:48:11.81 [INFO] Extending leases
+18:48:11.81 [INFO] Done extending leases
+18:49:31.81 [INFO] Extending leases
+18:49:31.81 [INFO] Done extending leases
+18:50:51.82 [INFO] Extending leases
+18:50:51.82 [INFO] Done extending leases
+18:52:11.82 [INFO] Extending leases
+18:52:11.83 [INFO] Done extending leases
+18:53:31.83 [INFO] Extending leases
+18:53:31.83 [INFO] Done extending leases
+18:54:51.83 [INFO] Extending leases
+18:54:51.84 [INFO] Done extending leases
+18:56:11.84 [INFO] Extending leases
+18:56:11.84 [INFO] Done extending leases
+18:57:31.84 [INFO] Extending leases
+18:57:31.85 [INFO] Done extending leases
+18:58:51.85 [INFO] Extending leases
+18:58:51.85 [INFO] Done extending leases
+19:00:11.85 [INFO] Extending leases
+19:00:11.86 [INFO] Done extending leases
+19:01:31.86 [INFO] Extending leases
+19:01:31.86 [INFO] Done extending leases
+19:02:51.87 [INFO] Extending leases
+19:02:51.87 [INFO] Done extending leases
+19:04:11.87 [INFO] Extending leases
+19:04:11.88 [INFO] Done extending leases
+19:05:31.88 [INFO] Extending leases
+19:05:31.88 [INFO] Done extending leases
+19:06:16.10 [INFO] handling request: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+19:06:16.19 [INFO] request completed: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+19:06:51.88 [INFO] Extending leases
+19:06:51.89 [INFO] Done extending leases
+19:07:45.43 [INFO] handling request: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+19:07:45.53 [INFO] request completed: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+19:08:11.89 [INFO] Extending leases
+19:08:11.89 [INFO] Done extending leases
+19:09:21.37 [INFO] notify invalidation: cleared 1 and dirtied 14 nodes for: {"pants.toml~", ""}
+19:09:21.37 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+19:09:21.37 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+19:09:21.37 [INFO] notify invalidation: cleared 1 and dirtied 14 nodes for: {"", "pants.toml~"}
+19:09:21.37 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+19:09:21.37 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+19:09:21.37 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+19:09:21.37 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+19:09:21.37 [INFO] notify invalidation: cleared 1 and dirtied 14 nodes for: {"", "pants.toml"}
+19:09:21.37 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml"}
+19:09:21.37 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~", ""}
+19:09:21.37 [ERROR] saw filesystem changes covered by invalidation globs: SnapshotDiff(our_unique_files=(), our_unique_dirs=(), their_unique_files=(), their_unique_dirs=(), changed_files=('pants.toml',)). terminating the daemon.
+19:09:21.45 [ERROR] service failure for <pants.pantsd.service.scheduler_service.SchedulerService object at 0x7f67aaf08fd0>.
+19:09:21.45 [INFO] Waiting for ongoing runs to complete before exiting...
+19:09:21.45 [INFO] Server exiting with Ok(())
+19:09:21.45 [INFO] Waiting for Sessions to complete before exiting...
+19:09:21.45 [INFO] Waiting for shutdown of: ["scheduler_service_session", "store_gc_service_session", "pants_run_2024_03_06_18_41_31_817_601c1d7cee904c9a9b6fae26c6f5b247", "pants_run_2024_03_06_19_06_16_185_e007e6a45cc745f0b675ab860e078a02", "pants_run_2024_03_06_19_07_45_529_52e539efb03548819503fd8dada25a40"]
+19:09:21.46 [INFO] Shutdown completed: "scheduler_service_session"
+19:09:21.46 [INFO] Shutdown completed: "store_gc_service_session"
+19:09:21.46 [INFO] Shutdown completed: "pants_run_2024_03_06_18_41_31_817_601c1d7cee904c9a9b6fae26c6f5b247"
+19:09:21.46 [INFO] Shutdown completed: "pants_run_2024_03_06_19_06_16_185_e007e6a45cc745f0b675ab860e078a02"
+19:09:21.46 [INFO] Shutdown completed: "pants_run_2024_03_06_19_07_45_529_52e539efb03548819503fd8dada25a40"
+19:09:21.46 [INFO] Exiting pantsd
+19:09:21.46 [WARN] File watcher exiting with: The watcher was shut down.
+19:09:29.40 [INFO] pantsd 2.20.0rc0 running with PID: 59971
+19:09:29.49 [INFO] handling request: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+19:09:33.60 [INFO] request completed: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+19:10:29.38 [INFO] notify invalidation: cleared 1 and dirtied 10 nodes for: {"", "pants.toml~"}
+19:10:29.38 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+19:10:29.38 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+19:10:29.38 [INFO] notify invalidation: cleared 1 and dirtied 10 nodes for: {"", "pants.toml~"}
+19:10:29.38 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+19:10:29.38 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+19:10:29.38 [ERROR] saw filesystem changes covered by invalidation globs: SnapshotDiff(our_unique_files=(), our_unique_dirs=(), their_unique_files=(), their_unique_dirs=(), changed_files=('pants.toml',)). terminating the daemon.
+19:10:29.38 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+19:10:29.38 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+19:10:29.38 [INFO] notify invalidation: cleared 1 and dirtied 10 nodes for: {"pants.toml", ""}
+19:10:29.38 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml"}
+19:10:29.38 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml~"}
+19:10:29.62 [ERROR] service failure for <pants.pantsd.service.scheduler_service.SchedulerService object at 0x7f0d345cadf0>.
+19:10:29.62 [INFO] Waiting for ongoing runs to complete before exiting...
+19:10:29.62 [INFO] Server exiting with Ok(())
+19:10:29.62 [INFO] Waiting for Sessions to complete before exiting...
+19:10:29.62 [INFO] Waiting for shutdown of: ["scheduler_service_session", "store_gc_service_session", "pants_run_2024_03_06_19_09_33_599_901e8cff4f284eb1b720571c26729a7f"]
+19:10:29.62 [INFO] Shutdown completed: "scheduler_service_session"
+19:10:29.62 [INFO] Shutdown completed: "store_gc_service_session"
+19:10:29.62 [INFO] Shutdown completed: "pants_run_2024_03_06_19_09_33_599_901e8cff4f284eb1b720571c26729a7f"
+19:10:29.62 [INFO] Exiting pantsd
+19:10:29.63 [WARN] File watcher exiting with: The watcher was shut down.
+19:10:35.83 [INFO] pantsd 2.20.0rc0 running with PID: 60070
+19:10:35.92 [INFO] handling request: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+19:10:40.05 [INFO] request completed: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+19:12:00.01 [INFO] Extending leases
+19:12:00.02 [INFO] Done extending leases
+19:13:08.06 [INFO] handling request: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+19:13:08.15 [INFO] request completed: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+19:13:20.02 [INFO] Extending leases
+19:13:20.02 [INFO] Done extending leases
+19:13:53.06 [INFO] notify invalidation: cleared 1 and dirtied 12 nodes for: {"pants.toml~", ""}
+19:13:53.06 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+19:13:53.06 [INFO] notify invalidation: cleared 1 and dirtied 12 nodes for: {"pants.toml~", ""}
+19:13:53.06 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+19:13:53.06 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+19:13:53.06 [ERROR] saw filesystem changes covered by invalidation globs: SnapshotDiff(our_unique_files=(), our_unique_dirs=(), their_unique_files=(), their_unique_dirs=(), changed_files=('pants.toml',)). terminating the daemon.
+19:13:53.06 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+19:13:53.06 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+19:13:53.06 [INFO] notify invalidation: cleared 1 and dirtied 12 nodes for: {"pants.toml", ""}
+19:13:53.06 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml"}
+19:13:53.06 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~", ""}
+19:13:53.21 [ERROR] service failure for <pants.pantsd.service.scheduler_service.SchedulerService object at 0x7fb60334f370>.
+19:13:53.21 [INFO] Waiting for ongoing runs to complete before exiting...
+19:13:53.21 [INFO] Server exiting with Ok(())
+19:13:53.21 [INFO] Waiting for Sessions to complete before exiting...
+19:13:53.21 [INFO] Waiting for shutdown of: ["scheduler_service_session", "store_gc_service_session", "pants_run_2024_03_06_19_10_40_50_3c98ef0a0fd845d983a736e6b7704db2", "pants_run_2024_03_06_19_13_08_151_246d9643e8394a6793d60e35ff28a033"]
+19:13:53.21 [INFO] Shutdown completed: "scheduler_service_session"
+19:13:53.21 [INFO] Shutdown completed: "store_gc_service_session"
+19:13:53.21 [INFO] Shutdown completed: "pants_run_2024_03_06_19_10_40_50_3c98ef0a0fd845d983a736e6b7704db2"
+19:13:53.21 [INFO] Shutdown completed: "pants_run_2024_03_06_19_13_08_151_246d9643e8394a6793d60e35ff28a033"
+19:13:53.22 [INFO] Exiting pantsd
+19:13:53.22 [WARN] File watcher exiting with: The watcher was shut down.
+19:14:00.47 [INFO] pantsd 2.20.0rc0 running with PID: 60266
+19:14:00.54 [INFO] handling request: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+19:14:04.64 [INFO] request completed: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+19:15:16.87 [INFO] handling request: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+19:15:16.96 [INFO] request completed: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+19:15:24.59 [INFO] Extending leases
+19:15:24.60 [INFO] Done extending leases
+19:15:47.37 [INFO] notify invalidation: cleared 1 and dirtied 10 nodes for: {"venv1/bin", "venv1/bin/CuPikCoV"}
+19:15:47.37 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin", "venv1/bin/CuPikCoV"}
+19:15:47.37 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin", "venv1/bin/python"}
+19:15:47.38 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin", "venv1/bin/CuPikCoV", "venv1/bin/python"}
+19:15:47.38 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin", "venv1/bin/python"}
+19:15:49.25 [INFO] handling request: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+19:15:49.35 [INFO] request completed: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+19:16:17.40 [INFO] notify invalidation: cleared 1 and dirtied 14 nodes for: {"pants.toml~", ""}
+19:16:17.40 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+19:16:17.40 [INFO] notify invalidation: cleared 1 and dirtied 14 nodes for: {"", "pants.toml~"}
+19:16:17.40 [INFO] notify invalidation: cleared 1 and dirtied 0 nodes for: {"pants.toml"}
+19:16:17.40 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+19:16:17.40 [ERROR] saw filesystem changes covered by invalidation globs: SnapshotDiff(our_unique_files=(), our_unique_dirs=(), their_unique_files=(), their_unique_dirs=(), changed_files=('pants.toml',)). terminating the daemon.
+19:16:17.41 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+19:16:17.41 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+19:16:17.41 [INFO] notify invalidation: cleared 1 and dirtied 14 nodes for: {"pants.toml", ""}
+19:16:17.41 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml", ""}
+19:16:17.41 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml~"}
+19:16:17.72 [ERROR] service failure for <pants.pantsd.service.scheduler_service.SchedulerService object at 0x7f0662290040>.
+19:16:17.72 [INFO] Waiting for ongoing runs to complete before exiting...
+19:16:17.73 [INFO] Server exiting with Ok(())
+19:16:17.73 [INFO] Waiting for Sessions to complete before exiting...
+19:16:17.73 [INFO] Waiting for shutdown of: ["scheduler_service_session", "store_gc_service_session", "pants_run_2024_03_06_19_14_04_636_61994b6f4f7e453ca5a65e148c12ca8c", "pants_run_2024_03_06_19_15_16_962_8ccafcace5e543678d7c6168c41cd7ce", "pants_run_2024_03_06_19_15_49_350_afa6a6e227ce403aafb7754e135db138"]
+19:16:17.73 [INFO] Shutdown completed: "scheduler_service_session"
+19:16:17.73 [INFO] Shutdown completed: "store_gc_service_session"
+19:16:17.73 [INFO] Shutdown completed: "pants_run_2024_03_06_19_14_04_636_61994b6f4f7e453ca5a65e148c12ca8c"
+19:16:17.73 [INFO] Shutdown completed: "pants_run_2024_03_06_19_15_16_962_8ccafcace5e543678d7c6168c41cd7ce"
+19:16:17.73 [INFO] Shutdown completed: "pants_run_2024_03_06_19_15_49_350_afa6a6e227ce403aafb7754e135db138"
+19:16:17.73 [INFO] Exiting pantsd
+19:16:17.73 [WARN] File watcher exiting with: The watcher was shut down.
+19:16:27.38 [INFO] pantsd 2.20.0rc0 running with PID: 60753
+19:16:27.47 [INFO] handling request: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+19:16:31.62 [INFO] request completed: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+19:16:36.75 [INFO] notify invalidation: cleared 1 and dirtied 10 nodes for: {"", "pants.toml~"}
+19:16:36.75 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+19:16:36.75 [INFO] notify invalidation: cleared 1 and dirtied 10 nodes for: {"", "pants.toml~"}
+19:16:36.75 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+19:16:36.75 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+19:16:36.75 [ERROR] saw filesystem changes covered by invalidation globs: SnapshotDiff(our_unique_files=(), our_unique_dirs=(), their_unique_files=(), their_unique_dirs=(), changed_files=('pants.toml',)). terminating the daemon.
+19:16:36.75 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+19:16:36.75 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+19:16:36.75 [INFO] notify invalidation: cleared 1 and dirtied 10 nodes for: {"", "pants.toml"}
+19:16:36.75 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml"}
+19:16:36.75 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml~"}
+19:16:37.59 [ERROR] service failure for <pants.pantsd.service.scheduler_service.SchedulerService object at 0x7f3c7afc7e20>.
+19:16:37.59 [INFO] Waiting for ongoing runs to complete before exiting...
+19:16:37.59 [INFO] Server exiting with Ok(())
+19:16:37.59 [INFO] Waiting for Sessions to complete before exiting...
+19:16:37.59 [INFO] Waiting for shutdown of: ["scheduler_service_session", "store_gc_service_session", "pants_run_2024_03_06_19_16_31_616_27766cc274504c93a2cbef4815b040ef"]
+19:16:37.59 [INFO] Shutdown completed: "scheduler_service_session"
+19:16:37.59 [INFO] Shutdown completed: "store_gc_service_session"
+19:16:37.59 [INFO] Shutdown completed: "pants_run_2024_03_06_19_16_31_616_27766cc274504c93a2cbef4815b040ef"
+19:16:37.59 [INFO] Exiting pantsd
+19:16:37.59 [WARN] File watcher exiting with: The watcher was shut down.
+19:16:41.61 [INFO] pantsd 2.20.0rc0 running with PID: 60812
+19:16:41.69 [INFO] handling request: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+19:16:45.79 [INFO] request completed: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+19:17:29.63 [INFO] notify invalidation: cleared 1 and dirtied 5 nodes for: {"", "requirements.txt"}
+19:17:29.84 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"requirements.txt"}
+19:17:29.86 [INFO] notify invalidation: cleared 1 and dirtied 5 nodes for: {"requirements.txt", ""}
+19:18:02.91 [INFO] notify invalidation: cleared 1 and dirtied 3 nodes for: {"venv1/.gitignore", "venv1"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/lib/python3.8", "venv1/lib/python3.8/site-packages"}
+19:18:02.93 [INFO] notify invalidation: cleared 1 and dirtied 3 nodes for: {"venv1/lib", "venv1/lib/python3.8"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/lib/python3.8", "venv1/lib"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1", "venv1/lib"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1", "venv1/lib"}
+19:18:02.93 [INFO] notify invalidation: cleared 1 and dirtied 3 nodes for: {"venv1/bin", "venv1/bin/wheel3"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin", "venv1/bin/pip3.8"}
+19:18:02.93 [INFO] notify invalidation: cleared 1 and dirtied 3 nodes for: {"venv1/bin", "venv1/bin/python3.8"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin/python3.8", "venv1/bin"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin", "venv1/bin/py.test"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin", "venv1/bin/activate.nu"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin", "venv1/bin/pip"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin", "venv1/bin/activate.fish"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin", "venv1/bin/activate"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin/pip-3.8", "venv1/bin"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin/wheel3.8", "venv1/bin"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin", "venv1/bin/activate_this.py"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin", "venv1/bin/pip3"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin/wheel", "venv1/bin"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin/python3", "venv1/bin"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin/python3", "venv1/bin"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin/python", "venv1/bin"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin", "venv1/bin/python"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin", "venv1/bin/activate.ps1"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin/pytest", "venv1/bin"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin", "venv1/bin/wheel-3.8"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/bin", "venv1/bin/activate.csh"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1", "venv1/bin"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1", "venv1/bin"}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"venv1/pyvenv.cfg", "venv1"}
+19:18:02.93 [INFO] notify invalidation: cleared 1 and dirtied 5 nodes for: {"venv1", ""}
+19:18:02.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "venv1"}
+19:18:05.75 [INFO] Extending leases
+19:18:05.76 [INFO] Done extending leases
+19:18:08.40 [INFO] handling request: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+19:18:08.51 [INFO] notify invalidation: cleared 1 and dirtied 45 nodes for: {".tmp3aarp3.hardlink_canary", ""}
+19:18:08.51 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", ".tmp3aarp3.hardlink_canary"}
+19:18:08.51 [INFO] notify invalidation: cleared 1 and dirtied 45 nodes for: {"BUILD", ""}
+19:18:08.51 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"BUILD"}
+19:18:08.51 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"BUILD", ""}
+19:18:08.51 [INFO] notify invalidation: cleared 1 and dirtied 30 nodes for: {"cypress/e2e", "cypress/e2e/BUILD"}
+19:18:08.51 [INFO] notify invalidation: cleared 1 and dirtied 30 nodes for: {"cypress/support/BUILD", "cypress/support"}
+19:18:08.51 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"cypress/e2e/BUILD"}
+19:18:08.51 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"cypress/e2e", "cypress/e2e/BUILD"}
+19:18:08.51 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"cypress/support/BUILD"}
+19:18:08.51 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"cypress/support/BUILD", "cypress/support"}
+19:18:08.51 [INFO] request completed: `--python-repos-find-links=-[] --no-verify-config tailor ::`
+19:19:25.76 [INFO] Extending leases
+19:19:25.76 [INFO] Done extending leases
+19:20:22.80 [INFO] handling request: `--python-repos-find-links=-[] run ::`
+19:20:26.88 [INFO] request completed: `--python-repos-find-links=-[] run ::`
+19:20:46.63 [INFO] handling request: `--python-repos-find-links=-[] list`
+19:20:46.73 [INFO] request completed: `--python-repos-find-links=-[] list`
+19:20:55.18 [INFO] notify invalidation: cleared 1 and dirtied 47 nodes for: {"pants.toml~", ""}
+19:20:55.18 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml~", ""}
+19:20:55.18 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+19:20:55.18 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+19:20:55.18 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+19:20:55.18 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml~"}
+19:20:55.18 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"", "pants.toml~"}
+19:20:55.18 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+19:20:55.18 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+19:20:55.18 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+19:20:55.18 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+19:20:55.19 [ERROR] saw filesystem changes covered by invalidation globs: SnapshotDiff(our_unique_files=(), our_unique_dirs=(), their_unique_files=(), their_unique_dirs=(), changed_files=('pants.toml',)). terminating the daemon.
+19:20:55.19 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+19:20:55.19 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+19:20:55.19 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+19:20:55.19 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml", ""}
+19:20:55.19 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+19:20:55.19 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml", ""}
+19:20:55.19 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"", "pants.toml"}
+19:20:55.19 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~", ""}
+19:20:55.19 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml"}
+19:20:55.19 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~", ""}
+19:20:55.84 [ERROR] service failure for <pants.pantsd.service.scheduler_service.SchedulerService object at 0x7f068bf794c0>.
+19:20:55.84 [INFO] Waiting for ongoing runs to complete before exiting...
+19:20:55.84 [INFO] Server exiting with Ok(())
+19:20:55.84 [INFO] Waiting for Sessions to complete before exiting...
+19:20:55.84 [INFO] Waiting for shutdown of: ["scheduler_service_session", "store_gc_service_session"]
+19:20:55.84 [INFO] Shutdown completed: "scheduler_service_session"
+19:20:55.84 [INFO] Shutdown completed: "store_gc_service_session"
+19:20:55.84 [INFO] Exiting pantsd
+19:20:55.84 [WARN] File watcher exiting with: The watcher was shut down.
+19:20:55.88 [WARN] File watcher exiting with: The watcher was shut down.
+19:21:00.52 [INFO] pantsd 2.20.0rc0 running with PID: 61161
+19:21:00.58 [INFO] handling request: `--python-repos-find-links=-[] list`
+19:21:04.86 [INFO] request completed: `--python-repos-find-links=-[] list`
+19:21:38.42 [INFO] handling request: `--python-repos-find-links=-[] run validate.py`
+19:21:38.53 [INFO] request completed: `--python-repos-find-links=-[] run validate.py`
+19:22:24.82 [INFO] Extending leases
+19:22:24.82 [INFO] Done extending leases
+19:22:42.48 [INFO] notify invalidation: cleared 1 and dirtied 108 nodes for: {"pants.toml~", ""}
+19:22:42.48 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+19:22:42.48 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~"}
+19:22:42.48 [INFO] notify invalidation: cleared 1 and dirtied 108 nodes for: {"pants.toml~", ""}
+19:22:42.48 [INFO] notify invalidation: cleared 1 and dirtied 0 nodes for: {"pants.toml"}
+19:22:42.48 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+19:22:42.48 [ERROR] saw filesystem changes covered by invalidation globs: SnapshotDiff(our_unique_files=(), our_unique_dirs=(), their_unique_files=(), their_unique_dirs=(), changed_files=('pants.toml',)). terminating the daemon.
+19:22:42.48 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml"}
+19:22:42.48 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+19:22:42.48 [INFO] notify invalidation: cleared 1 and dirtied 108 nodes for: {"pants.toml", ""}
+19:22:42.48 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml", ""}
+19:22:42.48 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~", ""}
+19:22:42.90 [ERROR] service failure for <pants.pantsd.service.scheduler_service.SchedulerService object at 0x7f418bbcd3a0>.
+19:22:42.90 [INFO] Waiting for ongoing runs to complete before exiting...
+19:22:42.91 [INFO] Server exiting with Ok(())
+19:22:42.91 [INFO] Waiting for Sessions to complete before exiting...
+19:22:42.91 [INFO] Waiting for shutdown of: ["scheduler_service_session", "store_gc_service_session", "pants_run_2024_03_06_19_21_04_852_d4ed6e46f8e94243945130706676f1a3", "pants_run_2024_03_06_19_21_38_512_e1ac2bdc22694c389a73f89c0f82810f"]
+19:22:42.91 [INFO] Shutdown completed: "scheduler_service_session"
+19:22:42.91 [INFO] Shutdown completed: "store_gc_service_session"
+19:22:42.91 [INFO] Shutdown completed: "pants_run_2024_03_06_19_21_04_852_d4ed6e46f8e94243945130706676f1a3"
+19:22:42.91 [INFO] Shutdown completed: "pants_run_2024_03_06_19_21_38_512_e1ac2bdc22694c389a73f89c0f82810f"
+19:22:42.91 [INFO] Exiting pantsd
+19:22:42.91 [WARN] File watcher exiting with: The watcher was shut down.
+19:23:39.31 [INFO] pantsd 2.20.0rc0 running with PID: 61338
+19:23:39.39 [INFO] handling request: `--python-repos-find-links=-[] run validate.py`
+19:24:00.47 [INFO] request completed: `--python-repos-find-links=-[] run validate.py`
+19:25:03.61 [INFO] Extending leases
+19:25:03.61 [INFO] Done extending leases
+19:25:51.92 [INFO] notify invalidation: cleared 1 and dirtied 152 nodes for: {"", "README.md"}
+19:25:51.92 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"README.md"}
+19:25:51.92 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "README.md"}
+19:26:23.62 [INFO] Extending leases
+19:26:23.63 [INFO] Done extending leases
+19:27:43.63 [INFO] Extending leases
+19:27:43.64 [INFO] Done extending leases
+19:29:03.64 [INFO] Extending leases
+19:29:03.64 [INFO] Done extending leases
+19:30:23.65 [INFO] Extending leases
+19:30:23.65 [INFO] Done extending leases
+19:31:43.66 [INFO] Extending leases
+19:31:43.67 [INFO] Done extending leases
+19:33:03.67 [INFO] Extending leases
+19:33:03.67 [INFO] Done extending leases
+19:34:23.68 [INFO] Extending leases
+19:34:23.68 [INFO] Done extending leases
+19:35:43.69 [INFO] Extending leases
+19:35:43.69 [INFO] Done extending leases
+19:37:03.70 [INFO] Extending leases
+19:37:03.70 [INFO] Done extending leases
+19:38:23.71 [INFO] Extending leases
+19:38:23.71 [INFO] Done extending leases
+19:39:43.72 [INFO] Extending leases
+19:39:43.72 [INFO] Done extending leases
+19:41:03.73 [INFO] Extending leases
+19:41:03.73 [INFO] Done extending leases
+19:42:23.74 [INFO] Extending leases
+19:42:23.74 [INFO] Done extending leases
+19:43:43.74 [INFO] Extending leases
+19:43:43.75 [INFO] Done extending leases
+19:45:03.76 [INFO] Extending leases
+19:45:03.76 [INFO] Done extending leases
+19:46:23.77 [INFO] Extending leases
+19:46:23.77 [INFO] Done extending leases
+19:47:43.78 [INFO] Extending leases
+19:47:43.78 [INFO] Done extending leases
+19:49:03.78 [INFO] Extending leases
+19:49:03.79 [INFO] Done extending leases
+19:50:23.79 [INFO] Extending leases
+19:50:23.80 [INFO] Done extending leases
+19:51:43.80 [INFO] Extending leases
+19:51:43.80 [INFO] Done extending leases
+19:53:03.81 [INFO] Extending leases
+19:53:03.82 [INFO] Done extending leases
+19:54:23.82 [INFO] Extending leases
+19:54:23.83 [INFO] Done extending leases
+19:55:43.83 [INFO] Extending leases
+19:55:43.84 [INFO] Done extending leases
+19:57:03.84 [INFO] Extending leases
+19:57:03.85 [INFO] Done extending leases
+19:58:23.85 [INFO] Extending leases
+19:58:23.86 [INFO] Done extending leases
+19:59:25.71 [INFO] notify invalidation: cleared 1 and dirtied 152 nodes for: {"", ".git"}
+19:59:43.86 [INFO] Extending leases
+19:59:43.87 [INFO] Done extending leases
+19:59:53.31 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"README.md"}
+19:59:53.31 [INFO] notify invalidation: cleared 1 and dirtied 152 nodes for: {"README.md", ""}
+19:59:59.11 [INFO] notify invalidation: cleared 1 and dirtied 152 nodes for: {"", ".git"}
